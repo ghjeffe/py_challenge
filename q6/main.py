@@ -40,4 +40,5 @@ def main():
         next_num = extract_num('{}.txt'.format(next_num))
     print(''.join(comment.decode('utf8') for comment in comments))
         
-main()
+if __name__ == '__main__':
+    main()
